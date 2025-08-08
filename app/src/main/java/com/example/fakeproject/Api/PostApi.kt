@@ -10,6 +10,7 @@ import retrofit2.http.Path
 
 interface PostApi {
 // api
+    // new
     @GET("posts")
     suspend fun getPosts(): List<Post>
 
